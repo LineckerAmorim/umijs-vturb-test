@@ -86197,7 +86197,7 @@ const ChatBox = () => {
 
 // Exports
 module.exports = {
-	"chatbox": "chatbox___2ZkA0"
+	"main": "main___3UqOH"
 };
 
 

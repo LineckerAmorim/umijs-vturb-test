@@ -85956,8 +85956,7 @@ var _jsxFileName = "/home/projects/umijs-fbxp9c/src/components/ActionBox.js";
 
 
 
-const Title = antd_es_typography__WEBPACK_IMPORTED_MODULE_9__["default"].Title,
-      Link = antd_es_typography__WEBPACK_IMPORTED_MODULE_9__["default"].Link;
+const Title = antd_es_typography__WEBPACK_IMPORTED_MODULE_9__["default"].Title;
 
 const ActionBox = ({
   title,
@@ -86141,34 +86140,75 @@ const Button = ({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/dist/antd.css */ "./node_modules/antd/dist/antd.css");
-/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _ActionBox__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ActionBox */ "./src/components/ActionBox.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var antd_es_row_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/es/row/style */ "./node_modules/antd/es/row/style/index.js");
+/* harmony import */ var antd_es_row__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/es/row */ "./node_modules/antd/es/row/index.js");
+/* harmony import */ var antd_es_col_style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/es/col/style */ "./node_modules/antd/es/col/style/index.js");
+/* harmony import */ var antd_es_col__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/es/col */ "./node_modules/antd/es/col/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! antd/dist/antd.css */ "./node_modules/antd/dist/antd.css");
+/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _ActionBox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ActionBox */ "./src/components/ActionBox.js");
+/* harmony import */ var _ChatBox_less_modules__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ChatBox.less?modules */ "./src/components/ChatBox.less?modules");
+/* harmony import */ var _ChatBox_less_modules__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_ChatBox_less_modules__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__);
+
+
+
+
 var _jsxFileName = "/home/projects/umijs-fbxp9c/src/components/ChatBox.js";
 
 
 
 
 
+
 const ChatBox = () => {
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(_ActionBox__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Lorem Ipsum is simply dummy text",
-    subtitle: "with Test",
-    description: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    buttonText: "Chat Now",
-    buttonType: "primary"
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(antd_es_row__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    justify: "center",
+    align: "middle",
+    className: _ChatBox_less_modules__WEBPACK_IMPORTED_MODULE_7___default.a.main,
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_ActionBox__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        title: "Lorem Ipsum is simply dummy text",
+        subtitle: "with Test",
+        description: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        buttonText: "Chat Now",
+        buttonType: "primary"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 9
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 7
+    }, undefined)
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 7,
+    lineNumber: 9,
     columnNumber: 5
   }, undefined);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ChatBox);
+
+/***/ }),
+
+/***/ "./src/components/ChatBox.less?modules":
+/*!*********************************************!*\
+  !*** ./src/components/ChatBox.less?modules ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+	"chatbox": "chatbox___2ZkA0"
+};
+
 
 /***/ }),
 
@@ -86182,63 +86222,22 @@ const ChatBox = () => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return IndexPage; });
-/* harmony import */ var antd_es_row_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/es/row/style */ "./node_modules/antd/es/row/style/index.js");
-/* harmony import */ var antd_es_row__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/es/row */ "./node_modules/antd/es/row/index.js");
-/* harmony import */ var antd_es_col_style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/es/col/style */ "./node_modules/antd/es/col/style/index.js");
-/* harmony import */ var antd_es_col__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/es/col */ "./node_modules/antd/es/col/index.js");
-/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/dist/antd.css */ "./node_modules/antd/dist/antd.css");
-/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_ChatBox__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/ChatBox */ "./src/components/ChatBox.js");
-/* harmony import */ var _index_less_modules__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./index.less?modules */ "./src/pages/index.less?modules");
-/* harmony import */ var _index_less_modules__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_index_less_modules__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__);
-
-
-
-
+/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/dist/antd.css */ "./node_modules/antd/dist/antd.css");
+/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_ChatBox__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/ChatBox */ "./src/components/ChatBox.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/home/projects/umijs-fbxp9c/src/pages/index.js";
 
 
 
-
 function IndexPage() {
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(antd_es_row__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    justify: "center",
-    align: "middle",
-    className: _index_less_modules__WEBPACK_IMPORTED_MODULE_6___default.a.main,
-    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(_components_ChatBox__WEBPACK_IMPORTED_MODULE_5__["default"], {}, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 10,
-        columnNumber: 9
-      }, this)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 7
-    }, this)
-  }, void 0, false, {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(_components_ChatBox__WEBPACK_IMPORTED_MODULE_1__["default"], {}, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 8,
+    lineNumber: 6,
     columnNumber: 5
   }, this);
 }
-
-/***/ }),
-
-/***/ "./src/pages/index.less?modules":
-/*!**************************************!*\
-  !*** ./src/pages/index.less?modules ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// Exports
-module.exports = {
-	"main": "main___3HPOe"
-};
-
 
 /***/ }),
 

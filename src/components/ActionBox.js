@@ -5,7 +5,7 @@ import 'antd/dist/antd.css';
 import styles from './ActionBox.less';
 import Button from './Button.js';
 
-const { Title, Link } = Typography;
+const { Title } = Typography;
 
 const ActionBox = ({
   title,

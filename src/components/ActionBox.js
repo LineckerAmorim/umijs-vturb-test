@@ -1,6 +1,5 @@
 import React from 'react';
 import { Row, Col, Card, Typography, Avatar } from 'antd';
-import 'antd/dist/antd.css';
 
 import styles from './ActionBox.less';
 import Button from './Button.js';
@@ -34,6 +33,7 @@ const ActionBox = ({
             <Avatar src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" />
           </Avatar.Group>
         </Col>
+
         <Col xs={24} md={6} style={{ marginTop: '1rem' }}>
           <Button text={buttonText} size="large" type={buttonType}></Button>
         </Col>

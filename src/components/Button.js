@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button as ButtonAntD } from 'antd';
 
 const Button = ({ text, type = 'primary', size = 'large' }) => {

@@ -85933,13 +85933,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var antd_es_typography__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! antd/es/typography */ "./node_modules/antd/es/typography/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! antd/dist/antd.css */ "./node_modules/antd/dist/antd.css");
-/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./ActionBox.less?modules */ "./src/components/ActionBox.less?modules");
-/* harmony import */ var _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _Button_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Button.js */ "./src/components/Button.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./ActionBox.less?modules */ "./src/components/ActionBox.less?modules");
+/* harmony import */ var _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _Button_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Button.js */ "./src/components/Button.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__);
 
 
 
@@ -85955,7 +85953,6 @@ var _jsxFileName = "/home/projects/umijs-fbxp9c/src/components/ActionBox.js";
 
 
 
-
 const Title = antd_es_typography__WEBPACK_IMPORTED_MODULE_9__["default"].Title;
 
 const ActionBox = ({
@@ -85965,84 +85962,84 @@ const ActionBox = ({
   buttonText,
   buttonType
 }) => {
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_card__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    className: _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_12___default.a.actionBox,
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(Title, {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(antd_es_card__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_11___default.a.actionBox,
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(Title, {
       level: 3,
-      className: _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_12___default.a.title,
+      className: _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_11___default.a.title,
       children: title
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 18,
       columnNumber: 7
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("p", {
-      className: _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_12___default.a.subtitle,
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+      className: _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_11___default.a.subtitle,
       children: subtitle
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 22,
       columnNumber: 7
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("p", {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
       children: description
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 24,
       columnNumber: 7
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_row__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(antd_es_row__WEBPACK_IMPORTED_MODULE_3__["default"], {
       justify: "space-between",
       align: "bottom",
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_5__["default"], {
         xs: 24,
         md: 18,
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
           children: "Chat with:"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 29,
+          lineNumber: 28,
           columnNumber: 11
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"].Group, {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"].Group, {
           size: "large",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"], {
             src: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 30,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"], {
+            src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 31,
             columnNumber: 13
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"], {
-            src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"], {
+            src: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 32,
             columnNumber: 13
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"], {
-            src: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"], {
+            src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 33,
             columnNumber: 13
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"], {
-            src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-          }, void 0, false, {
-            fileName: _jsxFileName,
-            lineNumber: 34,
-            columnNumber: 13
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 29,
           columnNumber: 11
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 27,
         columnNumber: 9
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_5__["default"], {
         xs: 24,
         md: 6,
         style: {
           marginTop: '1rem'
         },
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(_Button_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_Button_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
           text: buttonText,
           size: "large",
           type: buttonType
@@ -86058,12 +86055,12 @@ const ActionBox = ({
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 26,
       columnNumber: 7
     }, undefined)]
   }, void 0, true, {
     fileName: _jsxFileName,
-    lineNumber: 18,
+    lineNumber: 17,
     columnNumber: 5
   }, undefined);
 };
@@ -86100,14 +86097,11 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var antd_es_button_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/es/button/style */ "./node_modules/antd/es/button/style/index.js");
 /* harmony import */ var antd_es_button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/es/button */ "./node_modules/antd/es/button/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
 
 
 var _jsxFileName = "/home/projects/umijs-fbxp9c/src/components/Button.js";
-
 
 
 const Button = ({
@@ -86115,14 +86109,14 @@ const Button = ({
   type = 'primary',
   size = 'large'
 }) => {
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(antd_es_button__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(antd_es_button__WEBPACK_IMPORTED_MODULE_1__["default"], {
     block: true,
     size: size,
     type: type,
     children: text
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 6,
+    lineNumber: 5,
     columnNumber: 5
   }, undefined);
 };
@@ -86146,13 +86140,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var antd_es_col__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/es/col */ "./node_modules/antd/es/col/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! antd/dist/antd.css */ "./node_modules/antd/dist/antd.css");
-/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _ActionBox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ActionBox */ "./src/components/ActionBox.js");
-/* harmony import */ var _ChatBox_less_modules__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ChatBox.less?modules */ "./src/components/ChatBox.less?modules");
-/* harmony import */ var _ChatBox_less_modules__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_ChatBox_less_modules__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _ActionBox__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ActionBox */ "./src/components/ActionBox.js");
+/* harmony import */ var _ChatBox_less_modules__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ChatBox.less?modules */ "./src/components/ChatBox.less?modules");
+/* harmony import */ var _ChatBox_less_modules__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_ChatBox_less_modules__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -86163,14 +86155,13 @@ var _jsxFileName = "/home/projects/umijs-fbxp9c/src/components/ChatBox.js";
 
 
 
-
 const ChatBox = () => {
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(antd_es_row__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(antd_es_row__WEBPACK_IMPORTED_MODULE_1__["default"], {
     justify: "center",
     align: "middle",
-    className: _ChatBox_less_modules__WEBPACK_IMPORTED_MODULE_7___default.a.main,
-    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_ActionBox__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    className: _ChatBox_less_modules__WEBPACK_IMPORTED_MODULE_6___default.a.main,
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(_ActionBox__WEBPACK_IMPORTED_MODULE_5__["default"], {
         title: "Lorem Ipsum is simply dummy text",
         subtitle: "with Test",
         description: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -86178,17 +86169,17 @@ const ChatBox = () => {
         buttonType: "primary"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 11,
+        lineNumber: 10,
         columnNumber: 9
       }, undefined)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 9,
       columnNumber: 7
     }, undefined)
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 9,
+    lineNumber: 8,
     columnNumber: 5
   }, undefined);
 };
@@ -86234,8 +86225,8 @@ var _jsxFileName = "/home/projects/umijs-fbxp9c/src/pages/index.js";
 function IndexPage() {
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(_components_ChatBox__WEBPACK_IMPORTED_MODULE_1__["default"], {}, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 6,
-    columnNumber: 5
+    lineNumber: 5,
+    columnNumber: 10
   }, this);
 }
 

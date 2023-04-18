@@ -1,6 +1,5 @@
 import { Row, Col } from 'antd';
 import React from 'react';
-import 'antd/dist/antd.css';
 import ActionBox from './ActionBox';
 import styles from './ChatBox.less';
 
@@ -16,7 +15,7 @@ const ChatBox = () => {
           buttonType="primary"
         ></ActionBox>
       </Col>
-    </Row>    
+    </Row>
   );
 };
 

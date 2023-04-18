@@ -85912,32 +85912,32 @@ const request = (url, options) => {
 
 /***/ }),
 
-/***/ "./src/pages/index.js":
-/*!****************************!*\
-  !*** ./src/pages/index.js ***!
-  \****************************/
+/***/ "./src/components/ActionBox.js":
+/*!*************************************!*\
+  !*** ./src/components/ActionBox.js ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return IndexPage; });
 /* harmony import */ var antd_es_card_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/es/card/style */ "./node_modules/antd/es/card/style/index.js");
 /* harmony import */ var antd_es_card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/es/card */ "./node_modules/antd/es/card/index.js");
 /* harmony import */ var antd_es_row_style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/es/row/style */ "./node_modules/antd/es/row/style/index.js");
 /* harmony import */ var antd_es_row__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/es/row */ "./node_modules/antd/es/row/index.js");
-/* harmony import */ var antd_es_button_style__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/es/button/style */ "./node_modules/antd/es/button/style/index.js");
-/* harmony import */ var antd_es_button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! antd/es/button */ "./node_modules/antd/es/button/index.js");
-/* harmony import */ var antd_es_col_style__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! antd/es/col/style */ "./node_modules/antd/es/col/style/index.js");
-/* harmony import */ var antd_es_col__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! antd/es/col */ "./node_modules/antd/es/col/index.js");
-/* harmony import */ var antd_es_avatar_style__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! antd/es/avatar/style */ "./node_modules/antd/es/avatar/style/index.js");
-/* harmony import */ var antd_es_avatar__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! antd/es/avatar */ "./node_modules/antd/es/avatar/index.js");
-/* harmony import */ var antd_es_typography_style__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! antd/es/typography/style */ "./node_modules/antd/es/typography/style/index.js");
-/* harmony import */ var antd_es_typography__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! antd/es/typography */ "./node_modules/antd/es/typography/index.js");
-/* harmony import */ var _index_less_modules__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./index.less?modules */ "./src/pages/index.less?modules");
-/* harmony import */ var _index_less_modules__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_index_less_modules__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! antd/dist/antd.css */ "./node_modules/antd/dist/antd.css");
-/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var antd_es_col_style__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/es/col/style */ "./node_modules/antd/es/col/style/index.js");
+/* harmony import */ var antd_es_col__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! antd/es/col */ "./node_modules/antd/es/col/index.js");
+/* harmony import */ var antd_es_avatar_style__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! antd/es/avatar/style */ "./node_modules/antd/es/avatar/style/index.js");
+/* harmony import */ var antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! antd/es/avatar */ "./node_modules/antd/es/avatar/index.js");
+/* harmony import */ var antd_es_typography_style__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! antd/es/typography/style */ "./node_modules/antd/es/typography/style/index.js");
+/* harmony import */ var antd_es_typography__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! antd/es/typography */ "./node_modules/antd/es/typography/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! antd/dist/antd.css */ "./node_modules/antd/dist/antd.css");
+/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./ActionBox.less?modules */ "./src/components/ActionBox.less?modules");
+/* harmony import */ var _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _Button_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Button.js */ "./src/components/Button.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__);
 
@@ -85950,138 +85950,277 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+var _jsxFileName = "/home/projects/umijs-fbxp9c/src/components/ActionBox.js";
+
+
+
+
+
+const Title = antd_es_typography__WEBPACK_IMPORTED_MODULE_9__["default"].Title,
+      Link = antd_es_typography__WEBPACK_IMPORTED_MODULE_9__["default"].Link;
+
+const ActionBox = ({
+  title,
+  subtitle,
+  description,
+  buttonText,
+  buttonType
+}) => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_card__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_12___default.a.actionBox,
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(Title, {
+      level: 3,
+      className: _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_12___default.a.title,
+      children: title
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("p", {
+      className: _ActionBox_less_modules__WEBPACK_IMPORTED_MODULE_12___default.a.subtitle,
+      children: subtitle
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("p", {
+      children: description
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_row__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      justify: "space-between",
+      align: "bottom",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        xs: 24,
+        md: 18,
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+          children: "Chat with:"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"].Group, {
+          size: "large",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"], {
+            src: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 31,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"], {
+            src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 32,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"], {
+            src: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 33,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_7__["default"], {
+            src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 34,
+            columnNumber: 13
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        xs: 24,
+        md: 6,
+        style: {
+          marginTop: '1rem'
+        },
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(_Button_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
+          text: buttonText,
+          size: "large",
+          type: buttonType
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 7
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 5
+  }, undefined);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ActionBox);
+
+/***/ }),
+
+/***/ "./src/components/ActionBox.less?modules":
+/*!***********************************************!*\
+  !*** ./src/components/ActionBox.less?modules ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+	"actionBox": "actionBox___24jLT",
+	"title": "title___1Kas1",
+	"subtitle": "subtitle___3IbcS"
+};
+
+
+/***/ }),
+
+/***/ "./src/components/Button.js":
+/*!**********************************!*\
+  !*** ./src/components/Button.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var antd_es_button_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/es/button/style */ "./node_modules/antd/es/button/style/index.js");
+/* harmony import */ var antd_es_button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/es/button */ "./node_modules/antd/es/button/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
+
+
+var _jsxFileName = "/home/projects/umijs-fbxp9c/src/components/Button.js";
+
+
+
+const Button = ({
+  text,
+  type = 'primary',
+  size = 'large'
+}) => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(antd_es_button__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    block: true,
+    size: size,
+    type: type,
+    children: text
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 6,
+    columnNumber: 5
+  }, undefined);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Button);
+
+/***/ }),
+
+/***/ "./src/components/ChatBox.js":
+/*!***********************************!*\
+  !*** ./src/components/ChatBox.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/dist/antd.css */ "./node_modules/antd/dist/antd.css");
+/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ActionBox__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ActionBox */ "./src/components/ActionBox.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/home/projects/umijs-fbxp9c/src/components/ChatBox.js";
+
+
+
+
+
+const ChatBox = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(_ActionBox__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Lorem Ipsum is simply dummy text",
+    subtitle: "with Test",
+    description: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    buttonText: "Chat Now",
+    buttonType: "primary"
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 7,
+    columnNumber: 5
+  }, undefined);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ChatBox);
+
+/***/ }),
+
+/***/ "./src/pages/index.js":
+/*!****************************!*\
+  !*** ./src/pages/index.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return IndexPage; });
+/* harmony import */ var antd_es_row_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/es/row/style */ "./node_modules/antd/es/row/style/index.js");
+/* harmony import */ var antd_es_row__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/es/row */ "./node_modules/antd/es/row/index.js");
+/* harmony import */ var antd_es_col_style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/es/col/style */ "./node_modules/antd/es/col/style/index.js");
+/* harmony import */ var antd_es_col__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/es/col */ "./node_modules/antd/es/col/index.js");
+/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/dist/antd.css */ "./node_modules/antd/dist/antd.css");
+/* harmony import */ var antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_dist_antd_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_ChatBox__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/ChatBox */ "./src/components/ChatBox.js");
+/* harmony import */ var _index_less_modules__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./index.less?modules */ "./src/pages/index.less?modules");
+/* harmony import */ var _index_less_modules__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_index_less_modules__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__);
+
+
 
 
 var _jsxFileName = "/home/projects/umijs-fbxp9c/src/pages/index.js";
 
 
 
-const Title = antd_es_typography__WEBPACK_IMPORTED_MODULE_11__["default"].Title,
-      Link = antd_es_typography__WEBPACK_IMPORTED_MODULE_11__["default"].Link;
+
 function IndexPage() {
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_row__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(antd_es_row__WEBPACK_IMPORTED_MODULE_1__["default"], {
     justify: "center",
     align: "middle",
-    className: _index_less_modules__WEBPACK_IMPORTED_MODULE_12___default.a.main,
-    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_7__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_card__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        className: _index_less_modules__WEBPACK_IMPORTED_MODULE_12___default.a.chatbox,
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(Title, {
-          level: 3,
-          className: _index_less_modules__WEBPACK_IMPORTED_MODULE_12___default.a.title,
-          children: "Lorem Ipsum is simply dummy text"
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 12,
-          columnNumber: 11
-        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("p", {
-          className: _index_less_modules__WEBPACK_IMPORTED_MODULE_12___default.a.subtitle,
-          children: ["with", ' ', /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(Link, {
-            href: "https://test.com",
-            target: "_blank",
-            children: "Test"
-          }, void 0, false, {
-            fileName: _jsxFileName,
-            lineNumber: 18,
-            columnNumber: 13
-          }, this)]
-        }, void 0, true, {
-          fileName: _jsxFileName,
-          lineNumber: 16,
-          columnNumber: 11
-        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("p", {
-          children: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 23,
-          columnNumber: 11
-        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_row__WEBPACK_IMPORTED_MODULE_3__["default"], {
-          justify: "space-between",
-          align: "bottom",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_7__["default"], {
-            xs: 24,
-            md: 18,
-            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
-              children: "Chat with:"
-            }, void 0, false, {
-              fileName: _jsxFileName,
-              lineNumber: 31,
-              columnNumber: 15
-            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_9__["default"].Group, {
-              size: "large",
-              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                src: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
-              }, void 0, false, {
-                fileName: _jsxFileName,
-                lineNumber: 33,
-                columnNumber: 17
-              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
-              }, void 0, false, {
-                fileName: _jsxFileName,
-                lineNumber: 34,
-                columnNumber: 17
-              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                src: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              }, void 0, false, {
-                fileName: _jsxFileName,
-                lineNumber: 35,
-                columnNumber: 17
-              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_avatar__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixqx=ITpzis0SHv&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              }, void 0, false, {
-                fileName: _jsxFileName,
-                lineNumber: 36,
-                columnNumber: 17
-              }, this)]
-            }, void 0, true, {
-              fileName: _jsxFileName,
-              lineNumber: 32,
-              columnNumber: 15
-            }, this)]
-          }, void 0, true, {
-            fileName: _jsxFileName,
-            lineNumber: 30,
-            columnNumber: 13
-          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_7__["default"], {
-            xs: 24,
-            md: 6,
-            style: {
-              marginTop: '1rem'
-            },
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(antd_es_button__WEBPACK_IMPORTED_MODULE_5__["default"], {
-              block: true,
-              size: "large",
-              type: "primary",
-              children: "Chat Now"
-            }, void 0, false, {
-              fileName: _jsxFileName,
-              lineNumber: 40,
-              columnNumber: 15
-            }, this)
-          }, void 0, false, {
-            fileName: _jsxFileName,
-            lineNumber: 39,
-            columnNumber: 13
-          }, this)]
-        }, void 0, true, {
-          fileName: _jsxFileName,
-          lineNumber: 29,
-          columnNumber: 11
-        }, this)]
-      }, void 0, true, {
+    className: _index_less_modules__WEBPACK_IMPORTED_MODULE_6___default.a.main,
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(antd_es_col__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(_components_ChatBox__WEBPACK_IMPORTED_MODULE_5__["default"], {}, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 11,
+        lineNumber: 10,
         columnNumber: 9
       }, this)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 9,
       columnNumber: 7
     }, this)
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 9,
+    lineNumber: 8,
     columnNumber: 5
   }, this);
 }
@@ -86097,10 +86236,7 @@ function IndexPage() {
 
 // Exports
 module.exports = {
-	"main": "main___3HPOe",
-	"chatbox": "chatbox___3j2fJ",
-	"title": "title___2cyli",
-	"subtitle": "subtitle___1woYr"
+	"main": "main___3HPOe"
 };
 
 
